@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+.first-layer{
+    background-image: url("../recent-projects/pictures/header-bg.png");
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.half-width{
+    width: 45%;
+    height: 750px;
+    float: left;
+    margin-left: 3%;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+.half-width img{
+    width: 750px;  
+    animation-name: first-image;
+    animation-duration: 2s;
+}
+@keyframes first-image {
+    from{opacity: 0;}
+    to{opacity: 100;}
+}
+.hello{
+    font-size: 35px;
+    font-weight: 500;
+}
+.my-name{
+    color: salmon;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.discription-head{
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+#intro{
+    padding-left: 100px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    color: white;
+    font-weight: 700;
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.hire-button:hover{
+    background-image: linear-gradient(45deg, crimson, tomato);
+}
