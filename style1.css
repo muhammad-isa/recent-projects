@@ -165,15 +165,13 @@ body{
 }
 
 
-#client-workplace{
-    text-align: center;
+#client-review{
     font-weight: 100;
     font-size: 15px;
 }
 #client-review{
     font-style: italic;
     padding: 5px 10px;
-    font-weight: 300;
     
 }
 #msg-link{
@@ -189,7 +187,4 @@ body{
 #msg-link:hover{
     background-image: linear-gradient(90deg,rgb(243, 41, 115),rgb(235, 105, 205) );
     box-shadow: 2px 3px 5px gray;
-}
-footer h5{text-align: center;
-font-weight: 100;
 }
